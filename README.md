@@ -89,3 +89,6 @@ All necessary files and data can be found in the project repository. If you crea
 ---
 
 **Happy Analyzing!**
+
+Gathered the customer data using XLOOKUP
+Used INDEX MATCH to gather the product data
