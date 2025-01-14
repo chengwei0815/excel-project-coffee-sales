@@ -44,7 +44,10 @@ The source data is divided across three tabs:
 ### 1. **Data Gathering**
 - Populate missing data in the **Orders Tab** using lookup formulas:
   - **XLOOKUP**: Fetch customer-related information (Name, Email, Country) from the **Customers Tab**.
+  -    =IF(XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C$1:$C$1001,,0)=0,"",XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C$1:$C$1001,,0))
+  
   - **INDEX-MATCH**: Dynamically retrieve product-related data (Coffee Type, Roast Type, Size, Unit Price, etc.) from the **Products Tab**.
+  -    =INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0))
 
 ### 2. **Data Transformation**
 - Clean and consolidate the data for analysis.
