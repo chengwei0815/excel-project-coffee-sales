@@ -94,4 +94,9 @@ All necessary files and data can be found in the project repository. If you crea
 **Happy Analyzing!**
 
 Gathered the customer data using XLOOKUP
+
 Used INDEX MATCH to gather the product data
+
+<img width="1205" alt="Screenshot 2025-01-14 at 1 56 19 AM" src="https://github.com/user-attachments/assets/78eb7a29-d5a7-45cd-8915-6397829b17da" />
+
+
